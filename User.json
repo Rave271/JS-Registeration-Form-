@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Hellofdssf",
+    "address": "fd",
+    "contact": "fds",
+    "email": "There@idcfds",
+    "Mobile": "2313123",
+    "dob": "2024-12-06",
+    "radio": "Male",
+    "checkbox": "on"
+  },
+  {
+    "name": "Hellofdssffds",
+    "address": "fdcxv",
+    "contact": "fdssfd",
+    "email": "There@idcfdsdfsfsdf",
+    "dob": "2024-12-06",
+    "gender": "female",
+    "checkbox": "on"
+  },
+  {
+    "name": "Raghav Verma",
+    "address": "Sector 40 D Chandigarh",
+    "contact": "8427507949",
+    "email": "raghav2187.be23@chitkara.edu.in",
+    "dob": "2005-07-27",
+    "gender": "male",
+    "checkbox": "on"
+  }
+]

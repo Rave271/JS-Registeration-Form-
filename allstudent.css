@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Aldrich&family=Cedarville+Cursive&family=Cinzel+Decorative:wght@400;700;900&family=Playwrite+AU+VIC+Guides&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Aldrich", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Cedarville Cursive", serif;
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Body styling */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Container for the form */
+.container {
+    background-color: #00000099;
+    opacity: 0.9;
+    padding: 20px;
+    border-radius: 3px;
+    border: 1px solid #000000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 550px;
+    color: white;
+    text-align: center;
+}
+
+/* Form label and input styling */
+label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    text-align: center;
+    color: #fefefe;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input:focus {
+    border-color: #3523ab;
+    border: 2.5px solid #b541a0;
+    outline: none;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Button styling */
+button {
+    background-color: #b541a0;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8335a3;
+}
+
+button:focus {
+    outline: none;
+}
+h1 {
+    text-align: center;
+    color: #1a73e8;  /* Blue color for heading */
+}
+
+.student-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.student-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.student-card:hover {
+    transform: translateY(-10px);  /* Hover effect for each student card */
+}
+
+.student-card h3 {
+    margin-top: 0;
+    color: #1a73e8;  /* Blue color for student name */
+}
+
+.student-card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.student-card .label {
+    font-weight: bold;
+}
+
+.student-card .value {
+    color: #555;
+}
